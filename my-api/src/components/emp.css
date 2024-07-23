@@ -1,0 +1,41 @@
+/* Apply styles to the row containing book items */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Add any other styles you need for the row */
+}
+
+/* Style the book item container */
+.emp-item {
+    width: 100%; /* Adjust as needed */
+    max-width: 300px; /* Set a maximum width */
+    text-align: center;
+    /* Add other styles for spacing, borders, etc. */
+}
+
+/* Style the book item image */
+.emp-item img {
+    width: 100%;
+    height: auto;
+    /* Add any other image-specific styles */
+}
+
+/* Style the book item headings */
+.emp-item h2 {
+    font-size: 1.5rem; /* Adjust font size */
+    margin-bottom: 0.5rem;
+    /* Add other heading styles */
+}
+
+
+
+/* Style the 'View details' link */
+.emp-item .btn-primary-mt-2 {
+    background-color: #007bff; /* Set your desired color */
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    /* Add other button styles */
+}
+
